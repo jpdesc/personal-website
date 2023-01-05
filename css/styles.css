@@ -5,17 +5,27 @@ body {
 }
 
 h1 {
-    margin: 0 auto;
+    margin:50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 90px;
+    font-size: 562.5%;
+    color: #66BFBF;
+    height: 2;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
 }
 
 table {
@@ -61,4 +71,11 @@ table {
 
 .spacer {
     height: 8px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
