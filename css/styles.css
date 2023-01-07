@@ -6,10 +6,10 @@ body {
 
 hr {
     border: dotted;
-    border-width: 5px 0 0 0;
+    border-width: 6px 0 0 0;
     width: 5%;
     color: #EAF6F6;
-    left: 100px auto;
+    margin: 100px auto;
 }
 
 h1 {
@@ -35,6 +35,9 @@ h3 {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
 }
 
 p {
@@ -57,7 +60,7 @@ table {
 
 .middle-container {
     position: relative;
-    background-color: #EAFDFC;
+    /* background-color: #EAFDFC; */
     padding: 100px 0;
 }
 
@@ -153,4 +156,8 @@ table {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+}
+
+.text-link {
+    margin: 0px;
 }
